@@ -16,5 +16,5 @@ before_install:
 - docker build -t kcyeu/boost .
 
 script:
-#- "curl -H 'Content-Type: application/json' --data '{\"source_type\": \"Branch\", \"source_name\": \"master\"}' -X POST https://registry.hub.docker.com/u/kcyeu/agilefant/trigger/de045fe0-bf29-4316-afff-889dafc4ba18/"
+- "curl -H 'Content-Type: application/json' --data '{\"source_type\": \"Branch\", \"source_name\": \"master\"}' -X POST https://registry.hub.docker.com/u/kcyeu/boost/trigger/51ef1c03-9c5c-4101-ab25-3fa4ecaf4c9e/"
 
