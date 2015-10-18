@@ -8,6 +8,6 @@
 ## Usage
 
 ```bash
-sudo docker run -it --name my-boost-dev
+sudo docker run -it --name my-boost-dev kcyeu/boost
 ```
 
